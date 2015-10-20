@@ -37,7 +37,7 @@
 
 ## 3 HTML5与HTML4的区别【推荐阅读】
 
-![](http://img1.imgtn.bdimg.com/it/u=1151393336,3975994443&fm=21&gp=0.jpg)
+![](http://ww1.sinaimg.cn/large/ed796d65gw1ex8491too8j208c05kgll.jpg)
 
 > 参考：[HTML5与HTML4的区别]
 
