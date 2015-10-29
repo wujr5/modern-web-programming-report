@@ -165,15 +165,17 @@ position: static, absolute, relative, fixed
 
 [transition intro]: http://codepen.io/anon/pen/avGMpX
 
-transition语法：[MDN transition][]
+transition：[MDN transition][]
 
 [MDN transition]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition
 
-transition属性：
+transition语法：
 
 ```css
 transition: transition-property transition-duration transition-timing-function transition-delay[, ...]
 ```
+
+属性如下：
 
 1. `transition-property`：需要过渡处理的属性
 2. `transition-duration`：延续时间
@@ -181,8 +183,7 @@ transition: transition-property transition-duration transition-timing-function t
 4. `transition-delay`：执行动画的延迟时间
 
 ```css
-
-transition-timming-function:
+transition-timing-function:
 
 ease: 缓解效果，立方贝塞尔曲线
 linear: 线性效果
@@ -190,17 +191,66 @@ ease-in: 渐显效果
 ease-out: 渐隐效果
 ease-in-out: 渐显渐隐效果
 cubic-bezier: 特殊立方贝塞尔曲线
-
 ```
 
 ### 3.3 transform 2D变形
 
+`transform`也可以看做是一个属性，包含很多变形函数。如果没有为`transform`设置`transition`，那也是一个瞬变效果，因此`transform`一般与`transition`配合使用。
 
+举例说明。[transform example][]
+
+[transform example]: http://codepen.io/wujiarong/pen/zvjXGY
+
+transform函数：
+
+```css
+skew
+matrix：矩阵变换
+translate：移动元素
+scale：缩放元素
+rotate：旋转元素
+skew：倾斜元素
+```
 
 ### 3.4 animation 3D变形
 
+举个例子：[animation 3d][]
 
+[animation 3d]: http://codepen.io/wujiarong/pen/gazygv
 
+animation语法：
+
+```
+animation: animation-name animation-duration animation-timming-function animation-delay animation-iteration-count animation-direction
+```
+
+```css
+animation-name: 动画名称，对应关键帧的定义
+animation-duration：动画时间
+animation-timing-function：动画播放方式
+animation-delay：延迟时间
+animation-iteration-count：重复次数
+animation-direction：播放方向
+```
+关键在于，定义关键帧。
+
+```css
+@keyframes keyframeName {
+	0% {
+		transform: rotateX(0deg);
+	}
+	50% {
+		transform: rotateX(180deg);
+	}
+	100% {
+		transform: rotateX(360deg);
+	}
+}
+```
+
+### 3.5 浏览器兼容处理
+
+> 自己查阅相关资料。
 
 ## 4 本周作业
 
