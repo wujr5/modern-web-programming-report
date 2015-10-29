@@ -82,14 +82,69 @@
 ![](http://img4.duitang.com/uploads/item/201407/29/20140729171143_Gatjz.jpeg)
 
 ## 2 life coding show
+
 ### 2.1 王老师 coding show
 
-[王老师codingshow]
+😄 [王老师codingshow] 😄
 
 [王老师codingshow]: http://static.youku.com/v1.0.0577/v/swf/loader.swf?VideoIDS=XMTM2ODkzNzkzNg%3D%3D&embedid=NDUuMTI0LjY0LjIzOQIzNDIyMzQ0ODQCbXkuc3Muc3lzdS5lZHUuY24CL3dpa2kvZGlzcGxheS9XRUIvVHV0b3JhaWwrMDEuK0hvdyt0bytzdHlsZSthK1JJQSt3ZWJwYWdl&wd=&vext=pid%3D%26emb%3DNDUuMTI0LjY0LjIzOQIzNDIyMzQ0ODQCbXkuc3Muc3lzdS5lZHUuY24CL3dpa2kvZGlzcGxheS9XRUIvVHV0b3JhaWwrMDEuK0hvdyt0bytzdHlsZSthK1JJQSt3ZWJwYWdl%26bc%3D%26type%3D0
+
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exhttlbwqij21g80tyjxw.jpg)
 
 ## 3 css3动画初探
 
 ## 4 本周作业
 
 ## 5 接下来安排
+
+## 6 Tool tip
+
+> 老师视频上提到的开发工具，还有我自己推荐的开发工具
+
+### 6.1 Sublime Text
+
+相信这个大家已经有了。链接[sublime text 3][]
+
+[sublime text 3]:http://www.sublimetext.com/3
+
+### 6.2 Page Ruler
+
+链接：[page ruler][]
+
+[page ruler]: https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn
+
+### 6.3 Colorzilla
+
+链接：[Colorzilla][]
+
+[Colorzilla]: https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp
+
+### 6.4 Livereload
+
+chrome插件结合软件一起使用。插件：[chrome livereload][]，桌面应用：[livereload][]
+
+[livereload]: http://livereload.com/
+[chrome livereload]: https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
+
+### 6.5 Markdown编辑器
+
+三平台支持：[haroopad][]
+
+[haroopad]: http://pad.haroopress.com/user.html#download
+
+Mac强烈推荐：[Mou][]
+
+[Mou]: http://25.io/mou/
+
+> 参考：
+
+> 1. [Mac 下两款 Markdown 编辑器 Mou/MacDown 大 PK][]
+
+> 2. [10款流行的Markdown编辑器，总有一款适合你][]
+
+[Mac 下两款 Markdown 编辑器 Mou/MacDown 大 PK]: http://www.jianshu.com/p/6c157af09e84
+[10款流行的Markdown编辑器，总有一款适合你]: http://www.csdn.net/article/2014-05-05/2819623
+
+
+
+
