@@ -84,7 +84,7 @@ position: static, absolute, relative, fixed
 
 #### 1.3.1 优秀作业
 
-```js
+```
 14331291	吴思
 14359047	洪生楠
 14331077	关伟杰
@@ -136,6 +136,33 @@ position: static, absolute, relative, fixed
 
 ### 3.2 transition 过渡
 
+过渡其实是对于某个属性，或者某些属性而言的。比如，
+
+```html
+
+<style>
+	div {
+		width: 100px;
+		height: 100px;
+		background: blue;
+	}
+	
+	div:hover {
+		width: 200px;
+		height: 200px;
+	}
+</style>
+
+<div></div>
+
+```
+
+当鼠标hover在div上的时候，div的宽度和高度就会突变成为200px，这时是突然变化的，没有过渡，也可以认为是动画，但是不美观。
+
+`transition`属性就是用来调和这个变化过程的。
+
+举个例子先。
+<iframe width="100%" height="300" src="//jsfiddle.net/wujiarong/3j5bb4je/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 
 ### 3.3 transform 2D变形
