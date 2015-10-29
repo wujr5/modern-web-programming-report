@@ -180,6 +180,18 @@ transition: transition-property transition-duration transition-timing-function t
 3. `transition-timing-function`：属性值随时间的变化函数
 4. `transition-delay`：执行动画的延迟时间
 
+```css
+
+transition-timming-function:
+
+ease: 缓解效果，立方贝塞尔曲线
+linear: 线性效果
+ease-in: 渐显效果
+ease-out: 渐隐效果
+ease-in-out: 渐显渐隐效果
+cubic-bezier: 特殊立方贝塞尔曲线
+
+```
 
 ### 3.3 transform 2D变形
 
