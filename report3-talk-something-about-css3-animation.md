@@ -59,7 +59,7 @@
 
 #### 1.3.1 优秀作业
 
-```
+```js
 14331291	吴思
 14359047	洪生楠
 14331077	关伟杰
@@ -84,7 +84,9 @@
 ## 2 life coding show
 ### 2.1 王老师 coding show
 
-此处是视频链接
+[王老师codingshow]
+
+[王老师codingshow]: http://static.youku.com/v1.0.0577/v/swf/loader.swf?VideoIDS=XMTM2ODkzNzkzNg%3D%3D&embedid=NDUuMTI0LjY0LjIzOQIzNDIyMzQ0ODQCbXkuc3Muc3lzdS5lZHUuY24CL3dpa2kvZGlzcGxheS9XRUIvVHV0b3JhaWwrMDEuK0hvdyt0bytzdHlsZSthK1JJQSt3ZWJwYWdl&wd=&vext=pid%3D%26emb%3DNDUuMTI0LjY0LjIzOQIzNDIyMzQ0ODQCbXkuc3Muc3lzdS5lZHUuY24CL3dpa2kvZGlzcGxheS9XRUIvVHV0b3JhaWwrMDEuK0hvdyt0bytzdHlsZSthK1JJQSt3ZWJwYWdl%26bc%3D%26type%3D0
 
 ## 3 css3动画初探
 
