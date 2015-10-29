@@ -163,7 +163,23 @@ position: static, absolute, relative, fixed
 
 举个例子。[transition intro][]
 
-[transition intro]: https://jsfiddle.net/wujiarong/3j5bb4je/embedded/result/
+[transition intro]: http://codepen.io/anon/pen/avGMpX
+
+transition语法：[MDN transition][]
+
+[MDN transition]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition
+
+transition属性：
+
+```css
+transition: transition-property transition-duration transition-timing-function transition-delay[, ...]
+```
+
+1. `transition-property`：需要过渡处理的属性
+2. `transition-duration`：延续时间
+3. `transition-timing-function`：属性值随时间的变化函数
+4. `transition-delay`：执行动画的延迟时间
+
 
 ### 3.3 transform 2D变形
 
