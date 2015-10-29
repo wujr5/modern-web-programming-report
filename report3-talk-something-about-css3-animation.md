@@ -123,9 +123,29 @@ position: static, absolute, relative, fixed
 ## 3 css3动画初探
 
 ### 3.1 网页动画
+
+总体来说有三种方式可以实现网页动画。
+
+首先，是JavaScript实现。一般来说会直接使用JavaScript函数库，很少自己实现JS动画，因为比较复杂。优秀的函数库有`JQuery`等，还有一般的前端框架都会提供js动画。比如`Bootstrap`，`Materialize`等。
+
+> 由于目前我们还没有学习JS的只是，这部分的内容不讲。
+
+其次，是CSS3中的`transition`实现。`transition`翻译为过渡，意思是当一些CSS属性发生变化的时候，通过设置`transition`，可以控制变化的过程。因此我们能够利用过渡实现动画。
+
+第三，是CSS中的`animation`实现。`animation`是3D变形，比transition更复杂，功能也更强大。
+
 ### 3.2 transition 过渡
+
+
+
 ### 3.3 transform 2D变形
+
+
+
 ### 3.4 animation 3D变形
+
+
+
 
 ## 4 本周作业
 
