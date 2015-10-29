@@ -95,15 +95,28 @@
 
 ## 4 本周作业
 
+上周作业不作为期末分数。只作为参考。
+
+本周作业为，根据老师或者TA的提点，改进上周作业，按时提交。
+
+改进原则：
+
+1. 更接近题目要求的效果
+2. css代码可读性更好
+3. 在第二点的基础上，css代码更短。DRY：don‘t repeat yourself
+4. 改善你的代码风格
+
 ## 5 接下来安排
 
-## 6 Tool tip
+小组内互动交流讨论
+
+## 6 Tool tips
 
 > 老师视频上提到的开发工具，还有我自己推荐的开发工具
 
 ### 6.1 Sublime Text
 
-相信这个大家已经有了。链接[sublime text 3][]
+相信这个大家已经有了。链接：[sublime text 3][]
 
 [sublime text 3]:http://www.sublimetext.com/3
 
