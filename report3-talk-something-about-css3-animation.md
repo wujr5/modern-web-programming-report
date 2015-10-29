@@ -84,7 +84,7 @@ position: static, absolute, relative, fixed
 
 #### 1.3.1 优秀作业
 
-```
+```js
 14331291	吴思
 14359047	洪生楠
 14331077	关伟杰
@@ -161,9 +161,9 @@ position: static, absolute, relative, fixed
 
 `transition`属性就是用来调和这个变化过程的。
 
-举个例子先。
-<iframe width="100%" height="300" src="//jsfiddle.net/wujiarong/3j5bb4je/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+举个例子。[transition intro][]
 
+[transition intro]: https://jsfiddle.net/wujiarong/3j5bb4je/embedded/result/
 
 ### 3.3 transform 2D变形
 
