@@ -354,3 +354,12 @@ Mac强烈推荐：[Mou][]
 [lantern]: https://github.com/getlantern/lantern
 
 ![](http://ww4.sinaimg.cn/large/ed796d65gw1exhxlwoqyxj216o0uy0xf.jpg)
+
+### 6.8 去除页面牛皮癣
+
+免费去除页面广告：[Adblock][]
+
+[Adblock]: https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exjhvc1k5oj21iw0ykws0.jpg)
+
