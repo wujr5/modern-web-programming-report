@@ -118,6 +118,10 @@ position: static, absolute, relative, fixed
 
 [王老师codingshow]: http://static.youku.com/v1.0.0577/v/swf/loader.swf?VideoIDS=XMTM2ODkzNzkzNg%3D%3D&embedid=NDUuMTI0LjY0LjIzOQIzNDIyMzQ0ODQCbXkuc3Muc3lzdS5lZHUuY24CL3dpa2kvZGlzcGxheS9XRUIvVHV0b3JhaWwrMDEuK0hvdyt0bytzdHlsZSthK1JJQSt3ZWJwYWdl&wd=&vext=pid%3D%26emb%3DNDUuMTI0LjY0LjIzOQIzNDIyMzQ0ODQCbXkuc3Muc3lzdS5lZHUuY24CL3dpa2kvZGlzcGxheS9XRUIvVHV0b3JhaWwrMDEuK0hvdyt0bytzdHlsZSthK1JJQSt3ZWJwYWdl%26bc%3D%26type%3D0
 
+新地址：[codingshow][]
+
+[codingshow]: http://v.youku.com/v_show/id_XMTM3MzEyOTQ3Ng==.html
+
 ![](http://ww1.sinaimg.cn/large/ed796d65gw1exhttlbwqij21g80tyjxw.jpg)
 
 ## 3 css3动画初探
@@ -254,7 +258,9 @@ animation-direction：播放方向
 
 ## 4 本周作业
 
-上周作业不作为期末分数。只作为参考。
+上周作业是正式分数。
+
+本周作业不作为期末分数。只作为参考。
 
 本周作业为，根据老师或者TA的提点，改进上周作业，按时提交。
 
