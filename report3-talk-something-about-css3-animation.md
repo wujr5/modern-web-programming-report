@@ -328,11 +328,17 @@ Mac强烈推荐：[Mou][]
 
 ![](http://ww4.sinaimg.cn/large/ed796d65gw1exhxrudfyhj21e80yw7gj.jpg)
 
+
 > 参考：
 
 > 1. [Mac 下两款 Markdown 编辑器 Mou/MacDown 大 PK][]
 
 > 2. [10款流行的Markdown编辑器，总有一款适合你][]
+
+> 3. Markdown语法比较好的教程：[Garrett Flavored Markdown Reference Guide][]
+
+[Garrett Flavored Markdown Reference Guide]: http://coapp.org/reference/garrett-flavored-markdown.html
+
 
 [Mac 下两款 Markdown 编辑器 Mou/MacDown 大 PK]: http://www.jianshu.com/p/6c157af09e84
 [10款流行的Markdown编辑器，总有一款适合你]: http://www.csdn.net/article/2014-05-05/2819623
