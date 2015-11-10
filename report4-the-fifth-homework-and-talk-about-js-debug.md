@@ -4,7 +4,7 @@
 
 ### 1.1 html嵌入js函数
 
-违反结构，样式，行为分离的原则。
+违反`结构、样式、行为`分离的原则。
 
 ![](http://ww2.sinaimg.cn/large/ed796d65gw1exw2bbsin2j21320mo7mz.jpg)
 
@@ -112,27 +112,84 @@ js函数非常庞大。
 
 源文件区。在这里可以集中看到网页引用或者设计的，js，html，css文件。这个区域非常重要，用来进行js调试。下面在调试技巧那里具体说明。
 
-![](http://ww3.sinaimg.cn/large/ed796d65gw1exw62eys2ij21fi11y4j7.jpg)
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exw6fc04sij21g01247ky.jpg)
 
 #### 3.1.5 Timeline
 
+时间线。资源请求的详细时间情况。这个也是需要重新刷新网页才能收集到相关信息。
+
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exw6dl1rrbj21fy124dt8.jpg)
+
 #### 3.1.6 Profiles
 
-#### 3.1.7 Audits
+profiles区域。用来检测js运行是内存和cpu的运行情况。应该是作性能研究之用，我很少用。如有见解，望不吝评论。
 
-#### 3.1.8 Console
+![](http://ww3.sinaimg.cn/large/ed796d65gw1exw6jgoxwpj21fy11y434.jpg)
 
-#### 3.1.9 快捷键
+#### 3.1.7 Resources
+
+资源区。在这里可以随时查看该网页或者网站对应的，各种数据资源。比如：数据库信息，local storage的信息，session，cookies等。
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw6lorwyzj21g011wdk8.jpg)
+
+#### 3.1.8 Audits
+
+审计区。用来审查网页加载性能，组成情况，等等。这里有很多浏览器对网页分析的信息，很有用。
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw6p4slq0j21fy11ydj9.jpg)
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw6qob876j21fs122to3.jpg)
+
+#### 3.1.9 Console
+
+控制台。在这里可以查看js的`console.log`或者`console.dir`输出。或者查看一些错误，或者直接可以运行js语句。极其有用的区域。
+
+#### 3.1.10 快捷键
+
+在其他区域调出Console区。快捷键：`esc`。比如在elements区域，调出console功能区。再按一次`ese`键即可隐藏它。
+
+![](http://ww3.sinaimg.cn/large/ed796d65gw1exw6ub6wzgj21g01241b7.jpg)
+
+其他快捷键：点击菜单自行查看。
+
+比较有用的有：`control + L`清楚console区域的信息。
+
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exw6wuwq0nj21g211ykci.jpg)
 
 ### 3.2 错误查看
 
+在console区，会输出js运行时发生的错误，因此通过这些错误，我们就可以及时知道我们的程序出现了问题。然后根据信息，快速定位错误发生的位置。
+
+比如：我现在故意讲程序中的一个函数名字改成另外的名字。刷新网页，点击一下出发该函数的按钮。然后控制台马上就输出了错误信息。
+
+`sumUp is not defined`提示说`sumUp`不是一个函数。
+
+我就可以根据这个信息，马上找到sumUp使用的地方，然后去查看js文件，看看为什么没有定义这个函数。最后发现是函数名不一致，然后马上就可以把程序修改正确。
+
+![](http://ww4.sinaimg.cn/large/ed796d65gw1exw7526635j21ac120n0d.jpg)
+
 ### 3.3 输出调试
+
+调试的时候，可以使用以下两个命令讲js运行时的变量数值，或者字面量输出到控制台。
+
+就像是C语言中的`printf`，或者C++中的`cout`，或者java中的`System.out.println`
+
+#### 3.3.1 console.log
+
+最简单的方法是console.log()，可以用来取代alert()或document.write()。
+
+#### 3.3.2 console.dir
+
+console.dir()可以显示一个对象所有的属性和方法。
+
+参考：(这个一定要看！)
+
+[Firebug控制台详解][] 
+
+[Firebug控制台详解]: http://www.ruanyifeng.com/blog/2011/03/firebug_console_tutorial.html
 
 ### 3.4 查看数值
 
 ### 3.5 断点调试
 
 ### 3.6 二分调试法
-
-
-
