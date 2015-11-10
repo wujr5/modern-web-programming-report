@@ -64,6 +64,51 @@ js函数非常庞大。
 
 #### 3.1.2 Elements
 
+这个功能区，最大的功能莫过于查看html，还有对应元素的css了。html的内容同学们很熟悉了。关键是css的查看，可能还需要了解多一些。比如下面。
+
+**Styles** 
+
+查看某元素详细的css，包括继承，默认的，还有自己的。
+
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exw3kg6l1mj21ey1224ne.jpg)
+
+**Computed**
+
+查看元素盒模型，可以实时改变width，height，border，padding，margin的值。
+
+下面还可以看到属于元素自己的css属性值。
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw3o4aoehj21f0122qrb.jpg)
+
+**Event Listeners**
+
+在元素上绑定的事件监听器。这个我不常用，不熟悉，如有见解，望不吝评论。
+
+![](http://ww4.sinaimg.cn/large/ed796d65gw1exw3w6edwpj21eu1207sa.jpg)
+
+**DOM Breakpoints**
+
+在该元素对应的DOM元素所涉及的断点。
+
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exw43uhc5sj21eu128qoj.jpg)
+
+**Properties**
+
+该元素涉及的各种属性。
+
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exw459jizsj21ey124kd4.jpg)
+
+#### 3.1.3 Network
+
+#### 3.1.4 Sources
+
+#### 3.1.5 Timeline
+
+#### 3.1.6 Profiles
+
+#### 3.1.7 Audits
+
+#### 3.1.8 Console
 
 
 ### 3.2 错误查看
@@ -72,7 +117,9 @@ js函数非常庞大。
 
 ### 3.4 查看数值
 
-### 3.5 二分调试法
+### 3.5 断点调试
+
+### 3.6 二分调试法
 
 
 
