@@ -152,7 +152,7 @@ profiles区域。用来检测js运行是内存和cpu的运行情况。应该是�
 
 其他快捷键：点击菜单自行查看。
 
-比较有用的有：`control + L`清楚console区域的信息。
+比较有用的有：`control + L`清除console区域的信息。
 
 ![](http://ww1.sinaimg.cn/large/ed796d65gw1exw6wuwq0nj21g211ykci.jpg)
 
@@ -176,20 +176,96 @@ profiles区域。用来检测js运行是内存和cpu的运行情况。应该是�
 
 #### 3.3.1 console.log
 
-最简单的方法是console.log()，可以用来取代alert()或document.write()。
+最简单的方法是`console.log`，可以用来取代`alert`或`document.write`。
 
 #### 3.3.2 console.dir
 
-console.dir()可以显示一个对象所有的属性和方法。
+`console.dir`可以显示一个对象所有的属性和方法。
 
-参考：(这个一定要看！)
+![](http://ww3.sinaimg.cn/large/ed796d65gw1exw7jwyiu5j21g20p8q85.jpg)
 
-[Firebug控制台详解][] 
+> 参考：(这个一定要看！)
+
+> [Firebug控制台详解][] 
 
 [Firebug控制台详解]: http://www.ruanyifeng.com/blog/2011/03/firebug_console_tutorial.html
 
-### 3.4 查看数值
+### 3.4 断点调试
 
-### 3.5 断点调试
+断点调试极其重要，是前端工程师的调试利器。
 
-### 3.6 二分调试法
+#### 3.4.1 设置断点
+
+需要在Sources区针对相应的js文件来设置断点。如图：点击相应js文件的行数就能在该行设置断点。
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw7nqn999j21cg11u4bo.jpg)
+
+**问题来了，什么是断点？**
+
+这样解释：
+
+如果在第34行加了一个断点，然后当程序运行到第34行的时候，就会在第34行停下来，在断点行可以查看该行所在的作用域下的各种局部变量或者全局变量，或者函数栈等等。
+
+现在在程序添加了断点，重新刷新一下网页，看看会发生什么神奇的事情。
+
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exw7v4saalj21kw0uddrw.jpg)
+
+我们发现左边出现了`Paused in debugger`的功能区，右边红色框里面之前的黑色的暂停按钮，现在变成了蓝色，说明可以点击。而且在第34行变成了蓝色，说明程序运行到该断点。
+
+#### 3.4.2 控制按钮
+
+现在我们来介绍一下上一个图右边红色框里面的按钮的意思。
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw834v809j21ic120tqz.jpg)
+
+还有以下的这个区域。里面记录了好多程序有关的数据。
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw84czlibj20kk09st9h.jpg)
+
+简单解释一下：
+
+```
+watch：设置的watch的变量
+call stack：函数调用栈
+Scope：目前所在作用域下的所有有关的引用或值。
+Breakpoints：设置的断点
+DOM Breakpoints：设置的跟DOM相关的断点
+XHR Breakpoints：异步相关断点
+Event Listener Breakpoints：时间监听器断点
+Event Listeners：事件监听器
+```
+
+请自行捣腾。
+
+#### 3.4.3 查看数值
+
+当程序执行到断点的时候，有两种方法查看变量的值。
+
+一是直接在控制台使用`console.log`输出变量的值。如下图所示，首先按`esc`键调出console控制台。输入a，回车，直接就可以显示a的值。
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw8fc6rq4j21ha11ygvn.jpg)
+
+二是直接把鼠标移动到变量的上面。如下图所示，程序执行到第5行，当鼠标移动到a得上面的时候，马上马上弹出了7的小框，说明`a=7`
+
+![](http://ww1.sinaimg.cn/large/ed796d65gw1exw8btcia4j21h61227ie.jpg)
+
+
+#### 3.4.4 二分调试法
+
+有时候错误莫名其妙地发生，但是找了好久又找不到错误发生在什么地方。
+
+当你挠头抓脑，不知下一步该干什么的时候，不妨试一下二分调试法。
+
+二分调试，顾名思义，就是一分为二，分治的调试思想。
+
+步骤如下：
+
+1. 在不影响程序运行的情况下，把错误发生的可以区域，注释一半。
+2. 刷新网页，重新运行js代码，重现案发现场。或者人为制造错误。
+3. 观察错误是否产生。
+4. 若错误发生了，说明你接近错误代码了，就是没有注释的可疑区域。然后继续二分注释，重新运行，观察错误。直到找到错误发生的地点。
+5. 若错误没有发生，说明错误代码就在你注释的区域，而不在没有注释的可疑区域。然后把可疑的注释区域去掉一半的注释，重新运行，观察错误。
+
+以上步骤就是为了让你能不断缩小可疑区域，直到命中错误代码。
+
+二分法，效率奇高。
