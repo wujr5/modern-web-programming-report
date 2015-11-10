@@ -22,7 +22,7 @@ css选择器过多使用id导致属性冗余。
 
 ### 1.4 js函数臃肿
 
-js函数非常庞大。
+js函数非常庞大。应该把重复很多的代码抽离出来，独立成函数。
 
 ![](http://ww2.sinaimg.cn/large/ed796d65gw1exw2e11y2ej21kw11dgyp.jpg)
 
