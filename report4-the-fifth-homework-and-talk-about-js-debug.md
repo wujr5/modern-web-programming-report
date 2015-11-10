@@ -100,7 +100,19 @@ js函数非常庞大。
 
 #### 3.1.3 Network
 
+网络监控区。监控在网页范围内的各种资源请求。不过这个需要在打开控制台之后，重新刷新网页才能收集到相关信息。
+
+![](http://ww2.sinaimg.cn/large/ed796d65gw1exw5xxsomzj21fy12049t.jpg)
+
+点开其中一个资源查看详情，可以看到各种相关信息。
+
+![](http://ww4.sinaimg.cn/large/ed796d65gw1exw5z9f6qmj21fy1207ce.jpg)
+
 #### 3.1.4 Sources
+
+源文件区。在这里可以集中看到网页引用或者设计的，js，html，css文件。这个区域非常重要，用来进行js调试。下面在调试技巧那里具体说明。
+
+![](http://ww3.sinaimg.cn/large/ed796d65gw1exw62eys2ij21fi11y4j7.jpg)
 
 #### 3.1.5 Timeline
 
@@ -110,6 +122,7 @@ js函数非常庞大。
 
 #### 3.1.8 Console
 
+#### 3.1.9 快捷键
 
 ### 3.2 错误查看
 
