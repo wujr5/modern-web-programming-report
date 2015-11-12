@@ -288,3 +288,8 @@ Event Listeners：事件监听器
 
 [JavaScript权威指南](http://book.douban.com/subject/2228378/)
 
+### 在线资源
+
+1. [MDN: JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+2. [ECMAScript 6入门](http://es6.ruanyifeng.com/)
+
