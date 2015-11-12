@@ -16,7 +16,7 @@ css选择器过多使用id导致属性冗余。
 
 ### 1.3 html使用表格布局
 
-表格应该用来呈现数据，而不应该用来布局，布局任务应该有css承担。
+表格应该用来呈现数据，而不应该用来布局，布局任务应该由css承担。
 
 ![](http://ww2.sinaimg.cn/large/ed796d65gw1exw2cwip7xj20to0y0qf5.jpg)
 
@@ -268,4 +268,23 @@ Event Listeners：事件监听器
 
 以上步骤就是为了让你能不断缩小可疑区域，直到命中错误代码。
 
-二分法，效率奇高。
+二分调试法，效率奇高。
+
+## 4 js学习
+
+> 像之前学习高级语言一样，先学习基础语法，再学习高级应用。
+
+### 推荐书籍
+
+![](http://img6.douban.com/mpic/s8958650.jpg)
+
+[JavaScript高级程序设计（第3版）](http://book.douban.com/subject/10546125/)
+
+![](http://img6.douban.com/mpic/s3651235.jpg)
+
+[JavaScript语言精粹](http://book.douban.com/subject/3590768/)
+
+![](http://img6.douban.com/mpic/s5860151.jpg)
+
+[JavaScript权威指南](http://book.douban.com/subject/2228378/)
+
