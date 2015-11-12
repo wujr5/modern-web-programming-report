@@ -58,7 +58,7 @@ js函数非常庞大。应该把重复很多的代码抽离出来，独立成函
 
 #### 3.1.1 概览
 
-六个功能区：Elements，Network，Sources，Timeline，Profiles，Audits，Console
+七个功能区：Elements，Network，Sources，Timeline，Profiles，Audits，Console
 
 ![](http://ww4.sinaimg.cn/large/ed796d65gw1exw39f68r5j21ew1201kx.jpg)
 
