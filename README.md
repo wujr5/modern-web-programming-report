@@ -25,4 +25,4 @@
 [周四班-第11到15组 问题反馈]: https://github.com/wujr5/modern-web-programming-report/issues/2
 [周四班-第三次作业总结 & life coding show & css3动画初探]: https://github.com/wujr5/modern-web-programming-report/issues/3
 [周四班-第16到第20组 问题总结和谈谈js调试]: https://github.com/wujr5/modern-web-programming-report/issues/4
-[周四班-第21到第25组 问题总结和谈谈js面向对象]: 
+[周四班-第21到第25组 问题总结和谈谈js面向对象]: https://github.com/wujr5/modern-web-programming-report/issues/5
