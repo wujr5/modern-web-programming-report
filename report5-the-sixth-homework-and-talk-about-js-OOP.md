@@ -20,6 +20,7 @@
 * 打地鼠界面创新
 ![](http://ww1.sinaimg.cn/large/ed796d65gw1ey4iumutvij212c0zg17z.jpg)
 ![](http://ww4.sinaimg.cn/large/ed796d65gw1ey4ivclo0jj20zw0yyabz.jpg)
+![](http://ww1.sinaimg.cn/large/ed796d65gw1ey57ngxlo3j21kw0vlqmu.jpg)
 
 * 动态创建元素
 ![](http://ww4.sinaimg.cn/large/ed796d65gw1ey4ix5ff9lj20s806i40u.jpg)
