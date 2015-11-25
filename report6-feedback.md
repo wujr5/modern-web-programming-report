@@ -10,6 +10,8 @@
 
 ![](http://ww1.sinaimg.cn/large/ed796d65gw1eydg2o88rxg20zk0m8e8e.gif)
 
+![](http://ww1.sinaimg.cn/large/ed796d65gw1eydg2o88rxg20zk0m8e8e.gif)
+
 ### 1.3 尝试面向对象编程
 
 ![image](https://cloud.githubusercontent.com/assets/7693440/11396220/0d3dfc88-93ab-11e5-8062-c21ef52ba776.png)
