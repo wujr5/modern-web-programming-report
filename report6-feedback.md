@@ -8,9 +8,9 @@
 
 ### 1.2 自动恢复
 
-![](http://ww1.sinaimg.cn/large/ed796d65gw1eydg2o88rxg20zk0m8e8e.gif)
+<!--![](http://ww2.sinaimg.cn/large/ed796d65gw1eydg2o88rxg20zk0m8e8e.gif)-->
 
-![](http://ww1.sinaimg.cn/large/ed796d65gw1eydg2o88rxg20zk0m8e8e.gif)
+![](http://d.pcs.baidu.com/thumbnail/04629f6b4cf0a54d83af58ca6877ca6d?fid=2554151144-250528-395122645276200&time=1448449200&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-D5vRv6fW8izuHvAx%2FOqAH4hrJVU%3D&rt=sh&expires=2h&r=741066634&sharesign=unknown&size=c710_u500&quality=100)
 
 ### 1.3 尝试面向对象编程
 
