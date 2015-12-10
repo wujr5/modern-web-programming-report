@@ -21,6 +21,7 @@
 4. report4：[周四班-第16到第20组 问题总结和谈谈js调试]
 5. report5：[周四班-第21到第25组 问题总结和谈谈js面向对象]
 6. report6：[周四班-第1到5组 问题总结]
+7. report7：[周四班-第九次作业总结 & 浅谈nodejs模块化 & 服务端调试]
  
 [周四班-第11到15组 前端编程代码风格]: https://github.com/wujr5/modern-web-programming-report/issues/2
 [周四班-第11到15组 问题反馈]: https://github.com/wujr5/modern-web-programming-report/issues/2
@@ -28,3 +29,4 @@
 [周四班-第16到第20组 问题总结和谈谈js调试]: https://github.com/wujr5/modern-web-programming-report/issues/4
 [周四班-第21到第25组 问题总结和谈谈js面向对象]: https://github.com/wujr5/modern-web-programming-report/issues/5
 [周四班-第1到5组 问题总结]: https://github.com/wujr5/modern-web-programming-report/issues/6
+[周四班-第九次作业总结 & 浅谈nodejs模块化 & 服务端调试]: https://github.com/wujr5/modern-web-programming-report/issues/7
